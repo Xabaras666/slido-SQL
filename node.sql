@@ -85,8 +85,5 @@ ALTER SEQUENCE question_question_id_seq RESTART WITH 1;
 ALTER SEQUENCE lecturer_lecturer_id_seq RESTART WITH 1;
 --------------------------------------------------------
 
-
-SELECT * FROM lecturer;
-
 -- USED TO MAKE ADMIN USERS
 UPDATE lecturer SET type = 1 WHERE lecturer_id = 2;
